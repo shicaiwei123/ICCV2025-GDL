@@ -60,7 +60,7 @@ We provide bash file for a quick start.
 For CREMA-D
 
 ```bash
-bash cramed.sh
+bash cramed_dgl.sh
 ```
 
 

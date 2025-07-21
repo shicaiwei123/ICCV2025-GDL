@@ -50,8 +50,14 @@ Note that, the relevant path/dir should be changed according your own env.
 
 ## Data path
 
-you should move the download dataset into the folder *train_test_data*, or make a soft link in this floder.
+you should move the download dataset into the folder *train_test_data*, or make a soft link in this folder.
 
+
+## Key point of DGL
+
+- **Unimodal Regularization**. Add unimodal loss to enhance the modality encoder via  the parameters-shared method. （see **_AUXI in models/fusion_modules.py）
+- **Multimodal Gradient Truncation**. Remove the gradient from the multimodal loss to the modality encoder （see **.detach()** in fusion module in the models/fusion_modules.py）
+- **Unimodal Gradient Truncation**. Remove the gradient from the unimodal loss to the multimodal fusion module (see Line 114 in main_dgl.py)
 
 ## Train 
 

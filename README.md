@@ -1,6 +1,6 @@
 # ICCV2025-GDL
 
-Here is the official code for "Boosting Multimodal Learning via Disentangled Gradient Learning", which is a flexible framework to enhance the optimization process of multimodal learning. Please refer to our [ICCV 2025 paper](https://arxiv.org/abs/2203.15332) for more details.
+Here is the official code for "Boosting Multimodal Learning via Disentangled Gradient Learning", which is a flexible framework to enhance the optimization process of multimodal learning. Please refer to our [ICCV 2025 paper](https://arxiv.org/pdf/2507.10213) for more details.
 
 
 ## Main Dependencies
